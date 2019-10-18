@@ -1,21 +1,33 @@
-.products{
+.table-border{
+    max-width: 1002px;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.table-irag{
     border-collapse: collapse;
-    width: 850px;
+    width: 1000px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 .title{
     caption-side: top;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
-.products tbody tr:nth-child(1) td:nth-child(1){ /* тоже самое что :first-child */
-   /* border-right: 0;*/
+.text-head{
+    font-weight: normal;
+    width: 100px;
 }
 
-.products tbody tr:nth-child(1) td:nth-child(2){
-    border-left: 0;
+.text-total{
+    font-weight: normal;
+    width: 70px;
+    text-align: unset;
 }
 
-.products td{
-    padding: 15px;
-}
+
